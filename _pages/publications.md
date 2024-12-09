@@ -14,7 +14,9 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
+if value && value.numeric?
+  # Your existing code
 
 {% bibliography %}
-
+end
 </div>
